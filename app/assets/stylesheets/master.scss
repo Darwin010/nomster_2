@@ -17,3 +17,15 @@ h1, h2, h3, h4, h5, h6 {
 	padding:0;
 
 }
+
+Body {
+	background: image_url('cloth.png');
+	font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+}
+
+.navbar {
+	background: image_url('dark-triangles.png');
+	-webkit-box-shadow: 9px 9px 18px -1px rgba(0,0,0,0.74);
+	-moz-box-shadow: 9px 9px 18px -1px rgba(0,0,0,0.74);
+	box-shadow: 9px 9px 18px -1px rgba(0,0,0,0.74);
+}
