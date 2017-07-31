@@ -40,6 +40,8 @@ gem 'simple_form'
 
 gem "font-awesome-rails"
 
+gem 'devise'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
