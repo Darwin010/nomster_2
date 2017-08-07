@@ -3,20 +3,20 @@
 
 .booyah-box {
 	-moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: #fff;
-  border: 1px solid #ccc;
-  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 20px;
+	-webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+	box-shadow: 1px 1px 2px 0 #d0d0d0;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	margin:0;
 	padding:0;
-
+	
 }
 
 Body {
@@ -32,12 +32,20 @@ Body {
 }
 
 .navbar-inverse .navbar-brand {
-  color: #999999;
-  font-family: "source_code_problack";
+	color: #999999;
+	font-family: "source_code_problack";
 	font-size:30px;
 }
 
 .pagination {
-		width: 100px;
-    margin: 0 auto;
+	width: 100px;
+	margin: 0 auto;
+}
+
+.help-block {
+	color :#ff3333;
+	background-color: #FFEEEE;
+	border-radius: 3px;
+	padding: 2px 8px 2px 8px;
+	
 }
