@@ -24,15 +24,16 @@ class PlacesController < ApplicationController
 	
 	def edit
 		@place = Place.find(params[:id])
+		#raise "hello"
 		if @place.user != current_user
-			return render text: 'Not Allowed', status: :forbidden
+			return render file: "public/404.html"
 		end
 	end
 	
 	def update
 		@place = Place.find(params[:id])
 		if @place.user != current_user
-			return render text: 'Not Allowed', status: :forbidden
+			return render file: "public/404.html", status: :forbidden
 		end
 		
 		@place.update_attributes(place_params)
